@@ -8,6 +8,9 @@
     <rule field="playcount" operator="lessthan">
         <value>1</value>
     </rule>
+    <rule field="path" operator="contains">
+        <value>peliculas</value>
+    </rule>
     <limit>15</limit>
     <order direction="descending">dateadded</order>
 </smartplaylist>

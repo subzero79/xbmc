@@ -3,5 +3,8 @@
     <name>Random movies</name>
     <match>all</match>
     <limit>15</limit>
+    <rule field="path" operator="contains">
+        <value>peliculas</value>
+    </rule>
     <order direction="descending">random</order>
 </smartplaylist>
