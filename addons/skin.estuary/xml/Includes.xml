@@ -112,21 +112,21 @@
 	<include name="UserRatingContent">
 		<visible>!String.IsEmpty($PARAM[infolabel])</visible>
 		<control type="image">
-			<left>3</left>
+			<left>-3</left>
 			<top>-3</top>
-			<width>44</width>
-			<height>44</height>
+			<width>64</width>
+			<height>64</height>
 			<aspectratio>keep</aspectratio>
 			<texture colordiffuse="button_focus">overlays/badge.png</texture>
 		</control>
 		<control type="label">
-			<left>3</left>
+			<left>-3</left>
 			<top>-3</top>
 			<align>center</align>
 			<aligny>center</aligny>
-			<width>44</width>
-			<height>44</height>
-			<font>font20_title</font>
+			<width>64</width>
+			<height>64</height>
+			<font>font30_title</font>
 			<label>$INFO[$PARAM[infolabel]]</label>
 		</control>
 	</include>
